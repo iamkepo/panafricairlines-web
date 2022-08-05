@@ -19,10 +19,16 @@
     transform: translateY(0);
   }
 }
-
+.section2-grid:hover {
+  transform: scale(1.2);
+}
 .section2-btn:hover {
   transform: scale(1.02);
   background-color: #FFF;
   color: #3E885B;
   border: 1px solid #3E885B;
+}
+
+.section3-grid:hover {
+  transform: scale(1.02);
 }

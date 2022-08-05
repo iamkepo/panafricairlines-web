@@ -156,7 +156,7 @@ body {
 .section2 {
   margin-top: 5%;
   width: 90%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,6 +191,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  overflow-y: hidden;
 }
 .section2-grid {
   position: relative;
@@ -203,8 +204,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  transition: 1s;
 }
 .section2-grid::after { 
+  cursor: pointer;
   content: " ";
   display: block;
   position: absolute;
@@ -223,11 +226,18 @@ body {
 }
 .section2-grid-desc {
   color: #FFF;
+  width: 80%;
+  height: 20%;
+  text-align: center;
   font-size: 1.5vw;
   font-weight: lighter;
   position: absolute;
   z-index: 5;
-  bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: hidden;
 }
 .section2-btn {
   margin-top: 5%;
@@ -236,4 +246,132 @@ body {
   border: 1px solid #FFF;
   padding: 1% 2%;
   transition: 1s;
+}
+
+.section3 {
+  margin-top: 5%;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section3-grids {
+  margin-top: 3%;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+}
+.section3-grid {
+  width: 28%;
+  height: 45%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center top;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #3E885B;
+  transition: 1s;
+}
+.section3-grid-title {
+  width: 80%;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.6vw;
+  font-weight: bold;
+  text-align: left;
+}
+.section3-grid-desc {
+  color: #000;
+  width: 80%;
+  height: 40%;
+  text-align: left;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: hidden;
+}
+
+.section4 {
+  margin-top: 5%;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section4-grids {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow-y: hidden;
+}
+.section4-grid {
+  width: 23%;
+  height: 70%;
+  background-color: #EEE;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4-grid-desc {
+  background-color: #FFF;
+  color: #000;
+  width: 100%;
+  height: 20%;
+  padding: 0 5%;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: hidden;
+}
+.section4-box  {
+  margin-top: 2.5%;
+  width: 95%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4-texts {
+  width: 80%;
+  height: 60%;
+  font-size: 1.2vw;
+}
+.section4-desc {
+  width: 90%;
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+.section4-box .section2-btn {
+  margin-top: 0%;
 }
