@@ -81,7 +81,7 @@ body {
 .section1 {
   width: 90%;
   height: 70vh;
-  background-image: url("../img/bgHomePage1.svg");
+  background-color: #EEE;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -106,7 +106,7 @@ body {
 }
 .section1-article-card {
   width: 100%;
-  height: 40%;
+  height: 35%;
   background-color: #FFF;
   display: flex;
   flex-direction: column;
@@ -134,20 +134,106 @@ body {
 }
 .big-text {
   width: 100%;
-  height: 40%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: space-evenly;
-  font-size: 4vw;
+  justify-content: flex-end;
+  font-size: 3vw;
 }
 .text-plain {
   text-transform: uppercase;
   color: #FFF;
-  overflow-y: hidden;
 }
 .text-creuse {
   text-transform: uppercase;
+  background: linear-gradient(to top, rgb(240, 123, 117) , yellow);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section2 {
+  margin-top: 5%;
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section2-title {
+  width: 100%;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #3E885B;
+}
+.section2-items  {
+  margin-top: 2.5%;
+  width: 90%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #3E885B;
+}
+.section2-item {
+  height: 100%;
+  margin-right: 3%;
+  font-size: 1.2vw;
+}
+.section2-grids {
+  margin-top: 5%;
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.section2-grid {
+  position: relative;
+  width: 24%;
+  height: 100%;
+  background-color: #EEE;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section2-grid::after { 
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #3E885B , rgba(0, 0, 0, 0));
+}
+.section2-grid-title {
+  text-transform: uppercase;
   color: #FFF;
-  overflow-y: hidden;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  z-index: 5;
+  bottom: 25%;
+}
+.section2-grid-desc {
+  color: #FFF;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 5;
+  bottom: 15%;
+}
+.section2-btn {
+  margin-top: 5%;
+  background-color: #3E885B;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 1% 2%;
+  transition: 1s;
 }
