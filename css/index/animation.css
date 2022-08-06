@@ -1,0 +1,101 @@
+.transxR {
+  animation: transxR 1.5s ;
+}
+@keyframes transxR {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% { 
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.transxL {
+  animation: transxL 1.5s ;
+}
+@keyframes transxL {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% { 
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.transyB {
+  animation: transyB 1.5s ;
+}
+@keyframes transyB {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.transyT {
+  animation: transyT 1.5s ;
+}
+@keyframes transyT {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.bonceOut {
+  animation: bonceOut 1.5s ;
+}
+@keyframes bonceOut {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.bonceIn {
+  animation: bonceIn 1.5s ;
+}
+@keyframes bonceIn {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% { 
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+.section2-grid:hover {
+  transform: scale(1.1);
+}
+.section2-btn:hover {
+  transform: scale(1.02);
+  background-color: #FFF;
+  color: #3E885B;
+  border: 1px solid #3E885B;
+}
+
+.section3-grid:hover {
+  transform: scale(0.9);
+}
+.section4-grid:hover {
+  transform: scale(1.02);
+}
+
+.section5-btn:hover {
+  transform: scale(1.02);
+  background-color: #3E885B;
+  color: #FFF;
+  border: 1px solid #FFF;
+}
