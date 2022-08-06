@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: fade 1s ;
+  animation: fade 2s ;
 }
 .section1-article {
   width: 95%;
