@@ -1,0 +1,119 @@
+.section2 {
+  margin-top: 5%;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section2-title {
+  width: 100%;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #3E885B;
+}
+.section2-items  {
+  margin-top: 2.5%;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #3E885B;
+}
+.section2-item {
+  height: 100%;
+  margin-right: 3%;
+  font-size: 1.2vw;
+}
+.section2-grids {
+  margin-top: 5%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+.section2-grid {
+  position: relative;
+  width: 24%;
+  height: 100%;
+  background-color: #EEE;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 1s;
+}
+.section2-grid::after { 
+  cursor: pointer;
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #3E885B , rgba(0, 0, 0, 0));
+}
+.section2-grid:hover {
+  transform: scale(1.1);
+}
+.section2-grid-title {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  z-index: 5;
+  bottom: 25%;
+}
+.section2-grid-desc {
+  color: #FFF;
+  width: 80%;
+  height: 20%;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: hidden;
+}
+.section2-btn {
+  margin-top: 5%;
+  background-color: #3E885B;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 1% 2%;
+  transition: 1s;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+.section2-btn:hover {
+  transform: scale(1.02);
+  background-color: #FFF;
+  color: #3E885B;
+  border: 1px solid #3E885B;
+}
+@media screen and (max-width:900px){
+
+  .section2 {
+    width: 90%;
+  }
+
+}
+@media screen and (max-width:500px){
+
+  .section2 {
+    width: 95%;
+  }
+
+}
