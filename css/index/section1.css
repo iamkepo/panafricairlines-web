@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: fade 2s ;
+  animation: fade 1.5s ;
 }
 .section1-article {
   width: 95%;
@@ -75,7 +75,10 @@
 }
 .text-creuse {
   text-transform: uppercase;
-  color: #FFDD00;
+  background: linear-gradient(to top, #FFDD00 , rgb(179, 94, 94));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   /* animation: transyT 6s ; */
 }
 @media screen and (max-width:900px){
