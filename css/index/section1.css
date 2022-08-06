@@ -8,14 +8,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: transxR 1s ;
+  animation: fade 1s ;
 }
 .section1-article {
   width: 95%;
   height: 85%;
   align-items: center;
   justify-content: flex-start;
-  animation: bonceOut 2s ;
+  /* animation: bonceOut 2s ; */
 }
 .section1-article-title {
   width: 20%;
@@ -71,15 +71,12 @@
 .text-plain {
   text-transform: uppercase;
   color: #FFF;
-  animation: transyT 5s ;
+  /* animation: transyT 5s ; */
 }
 .text-creuse {
   text-transform: uppercase;
-  background: linear-gradient(to top, rgb(255, 0, 0) , rgb(179, 94, 94));
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: transyT 6s ;
+  color: #FFDD00;
+  /* animation: transyT 6s ; */
 }
 @media screen and (max-width:900px){
   
