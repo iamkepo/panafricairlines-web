@@ -28,10 +28,10 @@
   justify-content: flex-start;
 }
 .col-title {
-  width: 90%;
+  width: 60%;
   height: 35%;
   text-transform: uppercase;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: bold;
   text-align: left;
   overflow-y: hidden;
@@ -40,7 +40,6 @@
   width: 90%;
   height: 15%;
   text-align: left;
-  font-size: 1.1vw;
   font-weight: lighter;
   display: flex;
   flex-direction: column;

@@ -31,7 +31,7 @@
 }
 .nav-item:hover {
   color: #3E885B;
-  border-bottom: 2px solid #3E885B;
+  border-bottom: 0.5vh solid #3E885B;
 }
 @media screen and (max-width:900px){
 

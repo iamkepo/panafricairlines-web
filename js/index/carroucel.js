@@ -1,14 +1,18 @@
+let section1 = document.querySelector(".section1");
+let levels = document.querySelectorAll(".level");
 let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  let i;
-  let sections = document.querySelectorAll(".section1");
-  for (i = 0; i < sections.length; i++) {
-    sections[i].style.display = "none";
+  
+  for (let i = 0; i < slideIndex; i++) {
+    levels[i].style.backgroundColor = "transparent";
+    
   }
+  if (slideIndex > 2) {slideIndex = 0}
+  section1.style.animation = "fade 2s";
+  section1.style.backgroundImage = "url('./img/index/car"+slideIndex+".svg')";
+  levels[slideIndex].style.backgroundColor = "#FFF";
   slideIndex++;
-  if (slideIndex > sections.length) {slideIndex = 1}
-  sections[slideIndex-1].style.display = "flex";
   setTimeout(showSlides, 7000); // Change image every 2 seconds
 }

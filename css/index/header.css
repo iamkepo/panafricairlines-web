@@ -15,6 +15,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  font-size: 2vw;
 }
 .logo {
   width: 90%;
@@ -27,13 +28,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  overflow-x: visible;
 }
 .header-item {
   cursor: pointer;
   font-size: 0.8vw;
+  font-weight: normal;
 }
 .header-item:hover {
   color: #3E885B;
+  font-weight: bold;
 }
 @media screen and (max-width:900px){
 
