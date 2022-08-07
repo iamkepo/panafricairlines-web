@@ -1,7 +1,7 @@
 .section1 {
   width: 80%;
   height: 80vh;
-  background-color: #3e885c48;
+  background-color: #3e885c;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* animation: bonceOut 2s ; */
+  animation: bonceOut 1s ;
 }
 .section1-article-title {
   width: 20%;
@@ -73,7 +73,7 @@
 .text-plain {
   text-transform: uppercase;
   color: #FFF;
-  /* animation: transyT 5s ; */
+  animation: transyT 2s ;
 }
 .text-creuse {
   text-transform: uppercase;
@@ -81,7 +81,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /* animation: transyT 6s ; */
+  animation: transyT 3s ;
 }
 .levels {
   width: 100%;
