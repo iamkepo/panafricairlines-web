@@ -66,7 +66,7 @@
   text-decoration: none;
   margin: 0 0.5%;
   border-radius: 50%;
-  font-size: 1.1vw;
+  font-size: 1vw;
   transition: all 0.5s;
 }
 .fa:hover {
