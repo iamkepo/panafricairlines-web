@@ -1,2 +1,3 @@
 import  "./carroucel.js";
-import "./fixed.js";
+import "./scrollTo.js";
+import "../fixed.js";

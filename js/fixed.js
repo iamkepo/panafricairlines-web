@@ -1,7 +1,5 @@
 const header = document.querySelector(".header");
 const nav = document.querySelector(".nav");
-const backTop = document.querySelector(".section5-btn");
-
 
 window.addEventListener('scroll', e=> {
   
@@ -12,7 +10,3 @@ window.addEventListener('scroll', e=> {
   }
 
 })
-
-backTop.onclick = function (e) {
-  window.scrollTo(0, 0)
-}

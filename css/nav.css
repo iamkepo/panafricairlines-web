@@ -25,12 +25,20 @@
   justify-content: space-between;
 }
 .nav-item {
-  height: 90%;
+  height: 100%;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
 }
 .nav-item:hover {
+  color: #3E885B;
+  border-bottom: 0.5vh solid #3E885B;
+}
+.nav-item-active {
+  height: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
   color: #3E885B;
   border-bottom: 0.5vh solid #3E885B;
 }
