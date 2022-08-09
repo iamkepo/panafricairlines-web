@@ -77,10 +77,7 @@
 }
 .text-creuse {
   text-transform: uppercase;
-  background: linear-gradient(to top, #FFDD00 , rgb(214, 52, 52));
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: #FFDD00;
   animation: transyT 3s ;
 }
 .levels {
