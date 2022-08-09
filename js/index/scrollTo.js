@@ -1,5 +1,5 @@
 const backTop = document.querySelector(".section5-btn");
 
-backTop.onclick = function (e) {
+backTop.addEventListener('click',(e) => {
   window.scrollTo(0, 0)
-}
+})

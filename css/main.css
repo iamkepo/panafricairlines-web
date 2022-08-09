@@ -5,7 +5,9 @@
   text-decoration: none;
   overflow-x: hidden;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body { 
   width: 100vw;
   height: auto;
