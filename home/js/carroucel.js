@@ -19,7 +19,7 @@ function showSlides() {
   rested(slideIndex);
   if (slideIndex > 2) {slideIndex = 0}
   section1.style.animation = "fade 2s";
-  section1.style.backgroundImage = "url('./img/car"+slideIndex+".svg')";
+  section1.style.backgroundImage = "url('./home/img/car"+slideIndex+".svg')";
   levels[slideIndex].style.backgroundColor = "#FFF";
   slideIndex++;
   timer = setTimeout(showSlides, 7000); // Change image every 2 seconds
