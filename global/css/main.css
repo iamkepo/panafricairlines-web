@@ -48,3 +48,9 @@ a { color: inherit }
 .mr {
   margin-right: 5%;
 }
+.big-title {
+  width: 100%;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: #3E885B;
+}

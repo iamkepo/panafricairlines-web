@@ -6,49 +6,42 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  overflow-x: visible;
 }
 .section3-grids {
-  margin-top: 3%;
   width: 100%;
-  height: 90%;
+  height: 50%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  overflow-y: hidden;
+  overflow-x: visible;
 }
 .section3-grid {
-  width: 28%;
-  height: 45%;
+  width: 23%;
+  height: 80%;
+  background-color: #EEE;
+  background-position: top;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center top;
   background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  border: 1px solid #3E885B;
   transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section3-grid:hover {
-  transform: scale(0.9);
-}
-.section3-grid-title {
-  width: 80%;
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.6vw;
-  font-weight: bold;
-  text-align: left;
+  transform: scale(1.02);
 }
 .section3-grid-desc {
+  background-color: #FFF;
   color: #000;
-  width: 80%;
-  height: 40%;
-  text-align: left;
-  font-size: 1.3vw;
+  width: 100%;
+  height: 30%;
+  padding: 5% 5% 0;
+  text-align: center;
+  font-size: 1.5vw;
   font-weight: lighter;
   display: flex;
   flex-direction: column;
@@ -56,17 +49,42 @@
   justify-content: flex-start;
   overflow-y: hidden;
 }
+.section3-box  {
+  margin-top: 5%;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section3-texts {
+  width: 80%;
+  height: 60%;
+  font-size: 1.2vw;
+  overflow-y: hidden;
+}
+.section3-desc {
+  margin-top: 1%;
+  width: 90%;
+  font-weight: bold;
+}
+.section3-box .section2-btn {
+  margin-top: 0%;
+}
 @media screen and (max-width:900px){
-  
+
   .section3 {
     width: 90%;
   }
 
 }
 @media screen and (max-width:500px){
-  
+
   .section3 {
     width: 95%;
   }
-
+  
 }
