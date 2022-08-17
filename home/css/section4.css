@@ -55,7 +55,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.fa {
+.section4-icons .fa {
   width: 2.5%;
   height: 50%;
   display: flex;
@@ -68,7 +68,7 @@
   font-size: 1vw;
   transition: all 0.5s;
 }
-.fa:hover {
+.section4-icons .fa:hover {
   transform: translateY(-50%);
 }
 .fa-facebook {

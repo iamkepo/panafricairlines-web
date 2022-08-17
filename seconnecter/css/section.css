@@ -48,7 +48,7 @@
   font-weight: bold;
 }
 .article-items {
-  width: 80%;
+  width: 90%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -57,13 +57,6 @@
   font-size: 1.2vw;
   text-align: left;
   margin-bottom: 15%;
-}
-.article-item span{
-  display: block;
-}
-.article-item .fas{
-  font-size: 0.7vw;
-  margin-right: 1vw;
 }
 @media screen and (max-width:900px){
   
