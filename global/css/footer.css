@@ -1,7 +1,7 @@
 .footer {
-  width: 100%;
+  width: 80%;
   height: 40vh;
-  padding: 0 10%;
+  padding: 0 2.5%;
   background-color: #3E885B;
   display: flex;
   flex-direction: column;
@@ -61,14 +61,14 @@
 @media screen and (max-width:900px){
 
   .footer {
-    padding: 0 5%;
+    width: 90%;
   }
 
 }
 @media screen and (max-width:500px){
 
   .footer {
-    padding: 0 2.5%;
+    width: 95%;
   }
 
 }
