@@ -1,7 +1,7 @@
 .section4 {
   margin-top: 5vh;
   width: 80%;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +32,6 @@
   cursor: pointer;
 }
 .section4-btn {
-  margin-top: 5%;
   background-color: #FFF;
   color: #3E885B;
   padding: 1% 2%;
@@ -47,9 +46,9 @@
   color: #FFF;
 }
 .section4-icons {
-  margin-top: 3%;
+  margin-top: 5%;
   width: 100%;
-  height: 15%;
+  height: 20%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -57,7 +56,7 @@
 }
 .section4-icons .fa {
   width: 2.5%;
-  height: 50%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

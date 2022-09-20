@@ -21,7 +21,7 @@
 .section1-article-title {
   width: 20%;
   height: 10%;
-  background-color: #FFF;
+  /* background-color: #FFF; */
   color: #3E885B;
   display: flex;
   align-items: center;
@@ -63,22 +63,23 @@
 }
 .big-text {
   width: 100%;
-  height: 40%;
+  /* height: 40%; */
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: 3vw;
 }
 .text-plain {
   text-transform: uppercase;
   color: #FFF;
-  animation: transyT 2s ;
+  /* animation: transyT 2s ; */
 }
 .text-creuse {
   text-transform: uppercase;
   color: #FFDD00;
-  animation: transyT 3s ;
+  overflow: hidden;
+  /* animation: transyT 3s ; */
 }
 .levels {
   width: 100%;
