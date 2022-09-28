@@ -64,16 +64,6 @@
   height: 100%;
   background: linear-gradient(to top, #3E885B , rgba(0, 0, 0, 0));
 }
-
-.section2-grid-title {
-  text-transform: uppercase;
-  color: #FFF;
-  font-size: 2vw;
-  font-weight: bold;
-  position: absolute;
-  z-index: 5;
-  bottom: 25%;
-}
 .section2-grid-desc {
   color: #FFF;
   width: 80%;
@@ -81,13 +71,22 @@
   text-align: center;
   font-size: 1.5vw;
   font-weight: lighter;
-  position: absolute;
+  position: relative;
   z-index: 5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   overflow-y: hidden;
+}
+
+.section2-grid-title {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 2vw;
+  font-weight: bold;
+  position: relative;
+  z-index: 5;
 }
 .section2-btn {
   margin-top: 5%;

@@ -21,7 +21,7 @@
 .section3-grid {
   width: 23%;
   height: 80%;
-  background-color: #EEE;
+  background-color: #FFF;
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -64,7 +64,6 @@
 .section3-texts {
   width: 80%;
   height: 60%;
-  font-size: 1.2vw;
   overflow-y: hidden;
 }
 .section3-desc {

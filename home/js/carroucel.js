@@ -1,7 +1,7 @@
 let section1 = document.querySelector(".section1");
 let levels = document.querySelectorAll(".level");
 
-let slideIndex = 0;
+let slideIndex = 2;
 let timer = null;
 
 showSlides();
