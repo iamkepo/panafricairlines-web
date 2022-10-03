@@ -42,18 +42,30 @@
   height: 30%;
   padding: 5% 5% 0;
   text-align: center;
-  font-size: 1.5vw;
-  font-weight: lighter;
+  font-size: 1.2vw;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   overflow-y: hidden;
 }
+.section3-grid-desc .green{
+  font-size: 1.2vw;
+  padding: 0 5% 1%;
+  margin-top: 1%;
+}
+.section3-grid-desc .red{
+  background-color: rgba(233, 20, 20, 0.44);
+  font-size: 1.2vw;
+  padding: 0 5% 1%;
+  margin-top: 1%;
+  border-radius: 5px;
+}
 .section3-box  {
   margin-top: 5%;
   width: 100%;
-  height: 20%;
+  height: 15%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -69,6 +81,7 @@
 .section3-desc {
   margin-top: 1%;
   width: 90%;
+  font-size: 1.2vw;
   font-weight: bold;
 }
 .section3-box .section2-btn {
