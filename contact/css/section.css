@@ -28,7 +28,7 @@
     overflow-x: visible;
   }
   .section2-grid {
-    width: 20%;
+    width: 30%;
     height: 80%;
     background-color: #FFF;
     display: flex;
@@ -58,10 +58,15 @@
     color: #FFF;
     font-size: 1vw;
   }
-  .red, .green{
-    padding: 1%;
+  .red, {
+    padding: 3%;
     width: 100%;
   }
+  .green{
+    padding: 3%;
+    width: 100%;
+    font-size: 15px;
+  } 
   .name{
    font-weight: bold;
   } 
